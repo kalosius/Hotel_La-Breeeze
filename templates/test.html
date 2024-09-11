@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotel Luxury Stay</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        /* Add some basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .banner {
+            background-image: url('hotel-banner.jpg');
+            height: 400px;
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner h1 {
+            color: white;
+            font-size: 48px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .rooms, .services, .contact {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .room, .service, .contact-info {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 30%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hotel Luxury Stay</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <h1>Enjoy Your Stay at Our Luxury Hotel</h1>
+    </div>
+
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="rooms">
+            <div class="room">
+                <h3>Deluxe Room</h3>
+                <p>Comfortable, modern room with a king-size bed and ocean view.</p>
+            </div>
+            <div class="room">
+                <h3>Suite</h3>
+                <p>Spacious suite with a living area, balcony, and jacuzzi.</p>
+            </div>
+            <div class="room">
+                <h3>Presidential Suite</h3>
+                <p>Ultimate luxury with a private pool, dining area, and butler service.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Spa & Wellness</h3>
+                <p>Relax with our full-service spa offering massages and treatments.</p>
+            </div>
+            <div class="service">
+                <h3>Dining</h3>
+                <p>Gourmet dining with international and local cuisine, open 24/7.</p>
+            </div>
+            <div class="service">
+                <h3>Swimming Pool</h3>
+                <p>Enjoy our rooftop pool with a stunning view of the city skyline.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <div class="contact-info">
+                <h3>Address</h3>
+                <p>123 Luxury St, Paradise City, Country</p>
+            </div>
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p>contact@luxurystay.com</p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone</h3>
+                <p>+123-456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotel Luxury Stay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
